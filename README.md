@@ -1,28 +1,27 @@
-<<<<<<< HEAD
 # Performance-Critical Data Visualization Dashboard
 
 A high-performance real-time dashboard built with Next.js 14+ App Router that smoothly renders and updates 10,000+ data points at 60fps.
 
 ## Features
 
-- **Multiple Chart Types**: Line chart, bar chart, scatter plot, and heatmap
-- **Real-time Updates**: Simulated data arriving every 100ms
-- **Interactive Controls**: Time range selection and category filtering
-- **Performance Optimized**: Canvas-based rendering, React memoization, efficient data structures
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
-- **Performance Monitoring**: Built-in FPS and memory usage display
+* **Multiple Chart Types**: Line chart, bar chart, scatter plot, and heatmap
+* **Real-time Updates**: Simulated data arriving every 100ms
+* **Interactive Controls**: Time range selection and category filtering
+* **Performance Optimized**: Canvas-based rendering, React memoization, efficient data structures
+* **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
+* **Performance Monitoring**: Built-in FPS and memory usage display
 
 ## Tech Stack
 
-- **Framework**: Next.js 14+ with App Router
-- **Rendering**: Canvas + custom utilities (no D3.js or Chart.js)
-- **State Management**: React hooks + Context
-- **Data**: Simulated time-series with realistic patterns
-- **TypeScript**: Full type safety
+* **Framework**: Next.js 14+ with App Router
+* **Rendering**: Canvas + custom utilities (no D3.js or Chart.js)
+* **State Management**: React hooks + Context
+* **Data**: Simulated time-series with realistic patterns
+* **TypeScript**: Full type safety
 
 ## Getting Started
 
-\`\`\`bash
+```bash
 # Install dependencies
 npm install
 
@@ -30,7 +29,7 @@ npm install
 npm run dev
 
 # Open http://localhost:3000/dashboard
-\`\`\`
+```
 
 ## Performance Optimizations
 
@@ -43,7 +42,7 @@ npm run dev
 
 ## Architecture
 
-\`\`\`
+```
 components/
 ├── charts/              # Canvas-based chart components
 │   ├── line-chart.tsx
@@ -65,27 +64,23 @@ lib/
 ├── data-generator.ts    # Data generation utilities
 ├── canvas-utils.ts      # Canvas rendering helpers
 └── performance-utils.ts # FPS counter and monitoring
-\`\`\`
+```
 
 ## Performance Metrics
 
-- **Data Points**: Up to 10,000+ simultaneously
-- **Update Rate**: 100ms intervals
-- **Target FPS**: 60fps stable
-- **Memory**: < 100MB for typical usage
-- **Interaction Latency**: < 100ms
+* **Data Points**: Up to 10,000+ simultaneously
+* **Update Rate**: 100ms intervals
+* **Target FPS**: 60fps stable
+* **Memory**: < 100MB for typical usage
+* **Interaction Latency**: < 100ms
 
 ## Browser Support
 
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
-- Requires `performance.memory` API for accurate memory tracking
+* Chrome/Edge 90+
+* Firefox 88+
+* Safari 14+
+* Requires `performance.memory` API for accurate memory tracking
 
 ## Documentation
 
 See `PERFORMANCE.md` for detailed optimization techniques and architecture decisions.
-=======
-# Performance-Critical-Data-Visualization-Dashboard
-Build a high-performance real-time dashboard that can smoothly render and update 10,000+ data points at 60fps using Next.js 14+ with App Router + TypeScript.
->>>>>>> 4d26dff4ea38acb25982dc276178649ef303178a
