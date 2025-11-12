@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Performance-Critical Data Visualization Dashboard
 
 A high-performance real-time dashboard built with Next.js 14+ App Router that smoothly renders and updates 10,000+ data points at 60fps.
@@ -84,3 +85,7 @@ lib/
 ## Documentation
 
 See `PERFORMANCE.md` for detailed optimization techniques and architecture decisions.
+=======
+# Performance-Critical-Data-Visualization-Dashboard
+Build a high-performance real-time dashboard that can smoothly render and update 10,000+ data points at 60fps using Next.js 14+ with App Router + TypeScript.
+>>>>>>> 4d26dff4ea38acb25982dc276178649ef303178a
